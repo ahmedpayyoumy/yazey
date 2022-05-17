@@ -1,0 +1,319 @@
+.aside-menu {
+    background-color: white !important;
+    background-image: url(../images/background-color.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aside {
+    background-color: white !important;
+    background-image: url(../images/background-color.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.brand {
+    background-color: #ffffff !important;
+    background-image: url(../images/background-color.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#kt_aside_menu {
+    margin-top: 0px !important;
+    .menu-nav {
+        padding: 0px 10px;
+    }
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-active {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-heading,
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-link {
+    background-color: #01354A;
+}
+
+.aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-heading,
+.aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-link {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #01354A;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-heading .menu-icon.svg-icon svg g [fill],
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-link .menu-icon.svg-icon svg g [fill] {
+    transition: unset;
+    fill: #ffffff;
+}
+
+.aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-heading .menu-icon.svg-icon svg g [fill],
+.aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-link .menu-icon.svg-icon svg g [fill] {
+    transition: unset;
+    fill: #ffffff;
+}
+
+.aside-menu .menu-nav>.menu-item:hover>.menu-heading .menu-icon,
+.aside-menu .menu-nav>.menu-item:hover>.menu-link .menu-icon {
+    color: #ffffff;
+}
+
+.aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-heading .menu-icon,
+.aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-link .menu-icon {
+    color: #ffffff;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-heading .menu-icon,
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-link .menu-icon {
+    color: #ffffff;
+}
+
+a {
+    transition: unset;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-open>.menu-heading,
+.aside-menu .menu-nav>.menu-item.menu-item-open>.menu-link {
+    background-color: #01354A;
+    border-radius: 10px;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-submenu .menu-subnav>.menu-item>.menu-link {
+    padding: 0 25px;
+    padding-left: 40px;
+    background-color: transparent !important;
+}
+
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-heading .menu-text,
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-link .menu-text {
+    color: #809FB8 !important;
+    font-weight: 600;
+}
+
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-active>.menu-heading .menu-text,
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-active>.menu-link .menu-text {
+    color: #809FB8 !important;
+    font-weight: 600;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-heading .menu-text,
+.aside-menu .menu-nav>.menu-item>.menu-link .menu-text {
+    color: #809FB8;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-heading .menu-icon.svg-icon svg g [fill],
+.aside-menu .menu-nav>.menu-item>.menu-link .menu-icon.svg-icon svg g [fill] {
+    transition: unset;
+    fill: #809FB8;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-heading .menu-icon,
+.aside-menu .menu-nav>.menu-item>.menu-link .menu-icon {
+    color: #809FB8;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-here {
+    transition: unset;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+a:hover {
+    transition: unset;
+}
+
+body {
+    background-color: #ffffff !important;
+    background-image: url(../images/background-color.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-fixed .header {
+    box-shadow: none !important;
+}
+
+#kt_wrapper {
+    overflow: hidden;
+    background-color: #ffffff !important;
+    background-image: url(../images/background-color.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .content {
+        padding: 0px;
+        background-color: white;
+        margin-top: 0px;
+        padding-top: 20px;
+        overflow: hidden;
+        border-radius: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+#kt_header {
+    display: none;
+}
+
+.footer {
+    display: none !important;
+}
+
+.header-fixed .wrapper {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.aside-fixed .wrapper {
+    padding-left: 280px;
+}
+
+#bottom-menu-user {
+    background-color: #f1f4fa !important;
+    padding: 0px 10px 24px !important;
+}
+
+#bottom-menu-user .custom__user {
+    padding: 16px;
+    background: #01354A;
+    border-radius: 12px;
+}
+
+#bottom-menu-user .custom__user .user-avatar {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    overflow: unset !important;
+    border: none !important;
+}
+
+#bottom-menu-user .custom__user .user-avatar img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+
+#bottom-menu-user .custom__user .active__btn {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    border: 2px solid #2d2e31;
+    box-sizing: border-box;
+}
+
+#bottom-menu-user .user__name .profile__name {
+    font-style: normal;
+    font-weight: bold;
+    width: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: 'salt' on;
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 145px;
+    white-space: nowrap;
+}
+
+#bottom-menu-user .user__name .edit__profile a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    font-feature-settings: 'salt' on;
+    color: #969BA8;
+}
+
+#kt_aside_menu {
+    max-height: calc(100vh - 94px - 122px) !important;
+    padding-bottom: 30px !important;
+}
+
+#bottom-menu-user {
+    padding: 25px;
+}
+
+.icon-three-dots-horizontal:before {
+    content: "\e91a";
+}
+
+#bottom-menu-user .user-avatar {
+    width: 46px;
+    height: 46px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.button-logout {
+    display: block !important;
+    position: absolute;
+    will-change: transform;
+    bottom: 0px !important;
+    left: 0px;
+    transform: translate3d(-116px, -30px, 0px);
+}
+
+.aside-menu .menu-nav>.menu-item {
+    margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 991px) {
+    #kt_header_mobile_toggle {
+        display: none;
+    }
+    #kt_aside_menu .menu-nav {
+        padding: 20px 10px;
+    }
+    .header-fixed .wrapper {
+        padding-top: 50px;
+        padding-right: 0px;
+    }
+    .aside-fixed .wrapper {
+        padding-left: 0px;
+    }
+    #kt_aside_menu {
+        max-height: calc(100vh - 94px) !important;
+        padding-bottom: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    table {
+        overflow-x: scroll !important;
+    }
+}
+
+#kt_aside_mobile_toggle {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.flex__avt {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    .image__avt {
+        min-width: 60px;
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .text__avt {
+        color: black;
+        font-weight: bold;
+    }
+}

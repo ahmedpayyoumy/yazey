@@ -1,0 +1,141 @@
+body {
+    font-family: 'Inter', serif;
+}
+
+.tab__custom {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.tab__custom li a {
+    color: rgb(112, 112, 112);
+}
+
+.tab__custom li a:hover {
+    color: blue;
+    text-decoration: underline !important;
+}
+
+.tab__custom li {
+    margin-right: 20px;
+}
+
+.tab__custom li.active a {
+    color: blue;
+    text-decoration: underline !important;
+}
+
+.btn.dropdown-toggle-not-text:after {
+    margin: 0 !important;
+}
+
+.dropdown-menu.show {
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown-item {
+    background-color: rgb(245, 245, 245);
+}
+
+.dropdown-menu.show a.dropdown-item {
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+.dropdown-menu.show a.dropdown-item:last-child {
+    margin-bottom: 0px;
+}
+
+.dropdown-item.hide {
+    display: none;
+}
+
+.dropdown-item.show {
+    display: flex !important;
+}
+
+.modal .modal-header {
+    border: none !important;
+    padding-bottom: 0px !important;
+}
+
+.modal .modal-footer {
+    border: none !important;
+    padding-top: 0px !important;
+}
+
+.tox-notifications-container {
+    display: none !important;
+}
+
+.tox-tinymce {
+    height: unset;
+    min-height: 100vh !important;
+}
+
+.post__content {
+    font-family: 'Inter', sans-serif;
+}
+.post__content > ul {
+    margin-left: 32px;
+}
+
+.post__content ol {
+    /* list-style-type: none; */
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+}
+
+.post__content ol > li {
+    /* display: table; */
+    counter-increment: item;
+    margin-bottom: 0.6em;
+    margin-left: 1.2em;
+}
+
+.post__content ol ol > li {
+    display: block;
+}
+
+.post__content ol ol > li:before {
+    content: counters(item, ".") ". ";
+    /* display: table-cell; */
+    padding-right: 0.6em;
+}
+
+.post__content img {
+    width: 100%;
+    height: auto;
+}
+.post__content p > span,
+.post__content ul li > span {
+    display: block;
+}
+
+/* Basic styles for Table of Contents plugin (toc) */
+.mce-toc {
+  border: 1px solid gray;
+}
+
+.mce-toc h2 {
+  margin: 4px;
+}
+
+.mce-toc li {
+  list-style-type: none;
+}
+
+.post__content ul[style="list-style-type: hyphen;"] li{
+  list-style-type: none;
+}
+.post__content ul[style="list-style-type: hyphen;"] li:before{
+    content: "-";
+    left: 64px;
+    position: absolute;
+}

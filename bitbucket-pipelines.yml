@@ -1,0 +1,10 @@
+pipelines:
+  branches:
+    master:
+    - step:
+        name: Deploy to Production
+        image: framgiaciteam/deb-deploy:7.3
+        script:
+          # - apt-get install -y python
+          - dep deploy production
+        deployment: production

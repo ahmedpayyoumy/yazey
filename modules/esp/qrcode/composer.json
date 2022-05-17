@@ -1,0 +1,27 @@
+{
+    "name": "esp/qrcode",
+    "description": "Generate QR code for a text",
+    "authors": [
+        {
+            "name": "Ngan Nguyen",
+            "email": "ngan.nguyen@eastplayers.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yajra/laravel-datatables-oracle": "~9.0",
+        "endroid/qr-code": "^4.1"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "ESP\\QRCode\\QRCodeServiceProvider"
+        ]
+      }
+    },
+    "autoload": {
+      "psr-4": {
+        "ESP\\QRCode\\": "src/"
+      }
+    }
+}
